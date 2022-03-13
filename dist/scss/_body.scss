@@ -1,13 +1,15 @@
-body{
+.container-page1{
     background-image: url(../images/backgroundimage1.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 99% 100vh;
     background-position-x: center;
     background-attachment: fixed;
     min-height: 100vh;
 }
 .logo{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-style: normal;
     color: #FFFFFF;
     font-family: Josefin Sans;
@@ -17,20 +19,21 @@ body{
     font-size: 48px;
     line-height: 26px;
     /* identical to box height, or 54% */
-    display: flex;
-    margin-top: 20%;
-    justify-content: center;
     letter-spacing: 4.8px;
     text-transform: uppercase;
+    margin-top: 20%;
 }
 .subtext__logo{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    color: #FFFFFF;
+    font-family: Josefin Sans;
     font-weight: normal;
     font-size: 22px;
     line-height: 26px;
     /* identical to box height, or 118% */
-    display: flex;
-    align-items: center;
-    justify-content: center;
     letter-spacing: 6.82px;
 }
 .form{
@@ -65,7 +68,9 @@ body{
     text-transform: uppercase;
     color: #FFFFFF;
     width: 100px;
+    height: 30px;
 }
+
 .send-btn:hover{
     background-color: #768cee;
 }

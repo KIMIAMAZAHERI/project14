@@ -4,8 +4,10 @@
   }
   .navbar {
       background: #5474FD;
-      overflow: hidden;  
-      position: fixed;
+      overflow: hidden;
+      position: absolute;  
+      align-self: flex-end;
+     
       bottom: 0;
       width: 100%;
     }
