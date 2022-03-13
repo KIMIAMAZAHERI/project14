@@ -1,0 +1,46 @@
+#container-p4{
+    background-image: url(../images/backgroundimage4.png);
+    background-repeat: no-repeat;
+    background-size:100% 75%;
+    width: 100%;
+    background-position-x: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-color: #232323;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.logo__text{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    /* identical to box height, or 108% */
+    text-align: center;
+    letter-spacing: 3.36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.logo__subtext{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #FFFFFF;
+}
+.social{
+    border: none;
+    background-color:#232323;
+    color: #FFFFFF;
+    align-self: flex-end;
+    margin-bottom: 20%;
+}
+.social:hover{
+   color: #ee8476;
+}
